@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <style type="text/css">
+    body{
+      margin: 0;
+      padding: 0;
+      background: #dded;
+    }
+
+    header{
+      width: 100%;
+      height: 80px;
+      background-color: green;
+      display: flex;
+      justify-content: space-around;
+    }
+    header h2{
+      color: yellow;
+      font-size: 35px;
+      font-weight:800;
+    }
+    header ul{
+      list-style: none;
+      display: flex;
+    }
+    header ul li{
+      border: solid;
+      width: 100px;
+      margin-left: 5px;
+      padding: 10px;
+      border-radius: 8px;
+      transition: 1s;
+    }
+    header ul li a{
+      color: white;
+      text-decoration: none;
+      font-size: 20px;
+    }
+    header ul li:hover{
+      background-color: red;
+    }
+    header ul a > button{
+      border-radius: 8px;
+      width: 200px;
+      margin-left: 10px;
+      height: 48px;
+      background-color: green;
+    }
+    header ul a > button:hover{
+      background-color: red;
+      transition: 1s;
+    }
+
+    .about{
+      
+      background: #2AC7C2;
+      display: flex;
+      padding: 50px 300px 0px;
+    }
+    .rasm {
+      flex: 1;
+      text-align: center;
+    }
+    .rasm img{
+      height: 100%;
+    }
+    .text{
+      flex: 1;
+      padding-top: 50px;
+    }
+    .text h1{
+      color: white;
+      font-size: 40px;
+    }
+    .text p{
+      font-size: 20px;
+      line-height: 30px;
+      margin-bottom: 50px;
+      color: white;
+    }
+    .text button{
+      width: 200px;
+      height: 40px;
+      border-radius: 10px;
+      background: red;
+      color: white;
+      font-size: 20px;
+      border: 0;
+    }
+    /**{
+      border: solid;
+    }*/
+
+    .hammasi{
+
+      width: 100%;
+      height: 100%;
+      
+    }
+
+    h2{
+      text-align: center;
+      font-size: 45px;
+    }
+    .xizmat1{
+      display: flex;
+      font-size: 10px;
+
+    }
+    .rasm{
+      flex: 1;
+    }
+    
+    .matn{
+      flex: 2;
+
+    }
+     p{
+      
+      font-size: 40px;
+    }
+    .matn h1{
+      font-size: 25px;
+      
+    }
+    .xizmat2{
+      width: 100%;
+      
+      display: flex;
+    }
+    .rasm2{
+
+      padding-top: 50px;
+      text-align: center;
+      flex: 1;
+    }
+
+    .matn2{
+      flex: 2;
+    }
+    .matn2 h1{
+      font-size: 25px;
+    }
+    .xizmat3{
+      width: 100%;
+      display: flex;
+    }
+    .rasm3{
+      padding-top: 50px;
+      text-align: center;
+      flex: 1;
+    }
+    .matn3{
+      flex: 2;
+    }
+    .matn3 h1{
+      font-size: 25px;
+    }
+    .xizmat4{
+      width: 100%;
+      display: flex;
+    }
+    .rasm4{
+      padding-top: 50px;
+      text-align: center;
+      flex: 1;
+    }
+    .matn4{
+      flex: 2;
+    }
+    .matn4 h1{
+      font-size: 25px;
+    }
+    .kirish{
+      text-align: center;
+      margin-top: 30px;
+    }
+    .kirish > button{
+      border-radius: 10px;
+      font-size: 25px;
+      
+      border-color: red;
+      
+      color: red;
+    }
+    .kirish :hover{
+      background-color: black;
+      transition: 1s;
+    }
+    .past{
+      
+      height: 100px;
+      background: #2AC7C2 ;
+      padding: 80px;
+    }
+    .past > h3{
+      text-align: center;
+      font-size: 40px;
+    }
+    .yozilish{
+      display: flex;
+      margin-left: 400px;
+
+    }
+    .telefon button{
+      width: 150px;
+      height: 40px;
+      border-radius: 10px;
+      border-color: #2AC7C2;
+      color: white;
+      background: black;
+      transition: 1s;
+      cursor: pointer;
+      font-size: 16px;
+      margin-left: 200px;
+    }
+    button:hover{
+      background-color: red;
+
+    }
+    .telegram button{
+      width: 150px;
+      height: 40px;
+      border-radius: 10px;
+      border-color: #2AC7C2;
+      background: black;
+      transition: 1s;
+      cursor: pointer;
+      font-size: 16px;
+      color: white;
+    
+      margin-left: 300px;
+      }
+    .telegram button:hover{
+      background-color: red;
+    }
+    
+    .footer div{
+      width: 100%;
+      height: 100px;
+      background: black;
+      }
+    .container{
+      padding: 10px;
+    }
+    .container p{
+      font-size: 20px;
+      color: yellow;
+      margin-left: 30px;
+    }
+    .container{
+      width: 100%;
+      display: flex;
+    }
+    .ul{
+      display: flex;
+    }
+    .ul > li a{
+      text-decoration: none;
+      margin-left: 30px;
+      font-size: 20px;
+      color: white;
+    }
+
+    
+
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <h2>AnsorMed</h2>
+    <ul>
+      <li><a href="">AnsorMed</li>
+        <li><a href="">Xizmatlar</li>
+        <li><a href="">Kontaktlar</li>
+        <li><a href="">Dorilar</li>
+        <li><a href="">Blog</li>
+        <a href=""><button>QABULGA YOZILISH</button></a>
+    </ul>
+  </header>
+<div class="about">
+    <div class="text">
+      <h1>Tabiiy davolash usullari yordamida kasalliklardan xalos bo’ling.</h1>
+      <p>Hijoma, manual terapiya, zuluk va turli tabiiy giyohlar eng ko’p uchraydigan kasalliklarni yengishda yordam beradi. Sog’ligingizni o’z ishining professionallariga ishonib topshiring.</p>
+      <button>Kirish</button>
+    </div>
+    <div class="rasm">
+      <img src="hero-img.png">
+    </div>
+  </div>
+  <div class="hammasi">
+  <h2>Xizmatlar</h2>
+  <div class="xizmat1">
+    
+    <div class="rasm">
+      <img src="hijoma.jpg">
+    </div>
+    <div class="matn">
+      <p>Hijoma</p>
+      <h1>Imom Termiziy Abdulloh ibn Abbos raziyallohu anhumodan rivoyat qilgan hadisda rasululloh sallallohu alayhi va sallam dedilar: «Sizlar hijoma qiladigan kunlaringizning eng yaxshisi 17, 19 va 21-kunlardir» (bu kunlar hijrij-kamariy hisobdagi oylar kunlaridir).</h1>
+    </div>
+
+  </div>
+
+  <div class="xizmat2">
+    
+    <div class="rasm2">
+      <img src="manuak-terapiya.jpg">
+    </div>
+    <div class="matn2">
+      <p>Manual terapiya</p>
+      <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat.</h1>
+    </div>
+
+  </div>
+  <div class="xizmat3">
+    <div class="rasm3">
+      <img src="zuluk.jpg">
+    </div>
+    <div class="matn3">
+      <p>Zuluk bilan davolash</p>
+      <h1>Girudoterapiya (lot. hirūdō — «zuluk» va qad. yun. θεραπεία — «davolash») — ma’lum kasalliklarni dorivor zuluklar (Hirudo medicinalis) yordamida davolash usuli. Fizioterapevtik muolaja, muqobil tibbiyotga oid sanaladi. Bunday zuluklar ushbu kichik sinf chuvchalchanglariga oid yagona tur hisoblanadi, qolganlari shifobaxsh ta’sir ko’rsatmaydi.</h1>
+    </div>
+  </div>
+  <div class="xizmat4">
+    
+    <div class="rasm4">
+      <img src="tabiy.jpg">
+    </div>
+    <div class="matn4"> 
+      <p>Tabiiy yo`l bilan davolash</p>
+      <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. </h1>
+    </div>
+
+  </div>
+
+  <div class="kirish">
+    <button>QABULGA YOZILISH</button>
+  </div>
+
+   </div>
+   
+
+   
+
+ </div>
+ <div class="past">
+  <h3>Qabulga ro`yxatdan o`ting</h3>
+  <div class="yozilish">
+  <div class="telefon">
+    <button>TELEFON QILISH</button>
+  </div>
+  <div class="telegram">
+    <button>TELEGRAMDAN YOZISH</button>
+  </div>
+</div>
+   
+ </div>
+ <footer class="footer">
+    <div class="container">
+     
+        <p>AnsorMed</p>
+      
+      
+        <ul class="ul">
+          <li class=""><a class="" href="#">Xizmatlar</a></li>
+          <li class=""><a class="" href="#">Dorilar</a></li>
+          <li class=""><a class="" href="#">Asal</a></li>
+          <li class=""><a class="" href="#">Kontaktlar</a></li>
+          <li class=""><a class="" href="#">Blog</a></li>
+        </ul>
+      
+    </div>
+  </footer>
+
+</body>
+</html>
